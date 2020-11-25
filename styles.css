@@ -61,23 +61,17 @@ form
     flex-direction: column;
     width: 100%;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
- form.error input[type="email"]
- {
-     border-color: hsl(354, 100%, 66%);
-     margin-bottom: 30px;
- }
- form.error .error_text {
-     position: absolute;
-     top: 70px;
-     font-size: .95rem;
-     margin-top: 10px;
-     color: hsl(354, 100%, 66%);
-     font-weight: 500;
-     font-style: italic;
- }
-form input[type="email"]
+#text {
+    color: red;
+    font-size: .75rem;
+    font-style: italic;
+    margin-top: 5px;
+   
+}
+
+form input
 {
     height: 50px;
     width: 100%;
@@ -88,11 +82,14 @@ form input[type="email"]
     color: black;
     outline: none;
 }
-form input[type="email"]::placeholder
+form input::placeholder
 {
     color: hsl(223, 100%, 88%);
     font-family: 'Libre Franklin', sans-serif;
 }
+
+
+
 form button[type="submit"]
 {
     background-color: hsl(223, 87%, 63%);
@@ -135,19 +132,20 @@ form button[type="submit"]
         margin: 0;
         margin-left: 20px;
     }
-    form input[type="email"] {
+    form input {
         margin-bottom: 0;
     }
     .hero-img {
         max-width: 700px;
         margin: 0 auto;
     }
-    form.error .error_text {
+    #text{
         left: 35px;
-    }
-    form.error input[type="email"]{
+        position: relative;
+        display: block;
         margin: 0;
     }
+   
 }
 
 

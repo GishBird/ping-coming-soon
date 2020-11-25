@@ -17,10 +17,14 @@
     <img src="images/logo.svg" alt="logo" class="logo">
       <h1 class="heading">We are launching <span>soon!</span></h1>
       <p class="subheading">Subscribe and get notified</p>
-      <form action="#" class="error">
-        <input type="email" placeholder="Your email address">
-        <button type="submit">Notify Me</button>
+
+      <form id="form" action="#">
+        <input type="text" id="email" placeholder="Your email address">
+        <span id="text">Please enter a valid email address</span>
+        <button onclick="validation()" type="submit">Notify Me</button>
       </form>
+      
+
       <img src="images/illustration-dashboard.png" alt="hero-img" class="hero-img">
   
     <div class="icons">
