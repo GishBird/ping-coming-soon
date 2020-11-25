@@ -126,6 +126,7 @@ form button[type="submit"]
         flex-direction: row;
         max-width: 700px;
         margin-bottom: 50px;
+        position: relative;
     }
     form button[type="submit"]{
         width: 40%;
@@ -142,6 +143,10 @@ form button[type="submit"]
     #text{
         left: 35px;
         margin: 0;
+        display: inline-block;
+        position: absolute;
+        top: 80px;
+        left: 40px;
         
 
     }
