@@ -1,5 +1,5 @@
 function validation() {
-    const form = document.getElementById("form");
+//     const form = document.getElementById("form");
     const email = document.getElementById("email").value;
     const text = document.getElementById("text");
     const pattern = /^([a-zA-Z0-9\._]+)@([a-zA-Z0-9])+.([a-z]+)(.[a-z]+)?$/;
